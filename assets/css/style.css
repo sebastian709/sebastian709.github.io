@@ -21,7 +21,7 @@
 }
 
 
-.container-fluid {
+.container-fluid-1 {
     position: relative;
     text-align: center;
     color: white;
@@ -36,12 +36,11 @@
 .fed{
     font-size: 120px;
 }
-
 @media screen and (max-width: 600px) {
     .centered {
         position: absolute;
         top: 50%;
-        left: 30%;
+        left: 29%;
         transform: translate(-50%, -50%);
     }
     .fed{
@@ -53,3 +52,13 @@
         height: 88.5vh;
     }
   }
+
+.HTML{
+    width: 100%;
+}
+.CSS {
+    width: 70%;
+}
+.JS {
+    width: 50%;
+}
