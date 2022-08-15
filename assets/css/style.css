@@ -19,6 +19,13 @@
     width: 100%;
     margin-top: 2px;
 }
+.text-black{
+    color: #000000;
+}
+.text-black:hover{
+    color: #e18a07;
+    text-decoration: none;
+}
 
 
 .container-fluid-1 {
@@ -57,6 +64,9 @@
     .carpic{
         padding-top: 60px;
     }
+    .text-responsive{
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1300px) {
@@ -74,6 +84,7 @@
         margin-top: 2px;
         height: 88.5vh;
     }
+    
 }
 
 .HTML{
@@ -101,4 +112,8 @@
 }
 .carpic{
     height: 30vh;
+}
+
+.photolink{
+    text-decoration: none;
 }
