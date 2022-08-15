@@ -29,14 +29,14 @@
 
 .centered {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
 .fed{
-    font-size: 120px;
+    font-size: 70px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
     .centered {
         position: absolute;
         top: 50%;
@@ -44,14 +44,31 @@
         transform: translate(-50%, -50%);
     }
     .fed{
-        font-size: 50px;
+        font-size: 40px;
     }
     .img{
         width: 100%;
         margin-top: 2px;
         height: 88.5vh;
     }
-  }
+}
+
+@media screen and (min-width: 1300px) {
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 29%;
+        transform: translate(-50%, -50%);
+    }
+    .fed{
+        font-size: 90px;
+    }
+    .img{
+        width: 100%;
+        margin-top: 2px;
+        height: 88.5vh;
+    }
+}
 
 .HTML{
     width: 100%;
@@ -61,4 +78,12 @@
 }
 .JS {
     width: 50%;
+}
+.AJAX {
+    width: 30%;
+}
+.typing {
+    font-size: 50px;
+    background-color: #000000;
+    margin-top: 40px;
 }
