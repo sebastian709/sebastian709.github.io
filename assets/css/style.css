@@ -40,11 +40,16 @@
 @media screen and (max-width: 600px) {
     .centered {
         position: absolute;
-        top: 35%;
-        left: 25%;
+        top: 50%;
+        left: 30%;
         transform: translate(-50%, -50%);
     }
     .fed{
         font-size: 50px;
+    }
+    .img{
+        width: 100%;
+        margin-top: 2px;
+        height: 88.5vh;
     }
   }
