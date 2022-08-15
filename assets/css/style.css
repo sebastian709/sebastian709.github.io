@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.gold-bg{
+    background-color: #e18a07;
+}
+.black-bg{
+    background-color: #000000;
+}
+.bg-white{
+    background-color: WHITE;
+}
+.bg-gray{
+    background-color: #c0c0c0;
+}
+.img{
+    width: 100%;
+    margin-top: 2px;
+}
+
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.fed{
+    font-size: 120px;
+}
+
+@media screen and (max-width: 600px) {
+    .centered {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+    }
+    .fed{
+        font-size: 50px;
+    }
+  }
