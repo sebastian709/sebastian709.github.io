@@ -51,6 +51,12 @@
         margin-top: 2px;
         height: 88.5vh;
     }
+    .car{
+        width: 100%;
+    }
+    .carpic{
+        padding-top: 60px;
+    }
 }
 
 @media screen and (min-width: 1300px) {
@@ -89,4 +95,10 @@
 }
 .twobytwo{
     height: 40vh;
+}
+.car{
+    height: 30vh;
+}
+.carpic{
+    height: 30vh;
 }
